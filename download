@@ -1,0 +1,32 @@
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+id_ed25519
+id_rsa
+*.p12
+*.pfx
+*.ovpn
+*backup*.xml
+*config-export*
+*.qcow2
+*.vma
+*.vma.zst
+*.iso
+
+# SSH material
+.ssh/
+known_hosts
+authorized_keys
+
+# Service data that can contain credentials
+kuma.db
+data/
+adguard/
+AdGuardHome.yaml
+
+# Captures and exports
+*.pcap
+*.pcapng
+*.log
